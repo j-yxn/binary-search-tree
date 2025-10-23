@@ -21,3 +21,96 @@ This was created and finalized as a project for my high school Data Structures a
 `BinaryTreeNode.java`: Represents a single node in the tree, holding `Student` data.<br>
 `Student.java`: The data model that holds student information (`studentId`, `name`, `year`).<br>
 `StudentQueue.java`: A custom queue implementation (using a doubly-linked list) built to hold `BinaryTreeNode` objects for traversal.
+
+## 📝 Usage
+**Correct output of main() function:**
+```java
+
+There are no nodes in the tree.
+
+Student Id: 284  Name: Alice  Class: Freshman
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 606  Name: Bob  Class: Senior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 139  Name: Eric  Class: Freshman
+Student Id: 363  Name: Gail  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 749  Name: Henry  Class: Senior
+Student Id: 992  Name: Frank  Class: Sophomore
+Student Id: 802  Name: Ingrid  Class: Junior
+
+Ingrid
+Jack
+Gail
+Frank
+NULL
+
+Student Id 444 not found
+
+Student 139 removed
+Student Id: 284  Name: Alice  Class: Freshman
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 606  Name: Bob  Class: Senior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 363  Name: Gail  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 749  Name: Henry  Class: Senior
+Student Id: 992  Name: Frank  Class: Sophomore
+Student Id: 802  Name: Ingrid  Class: Junior
+
+Student 749 removed
+Student Id: 284  Name: Alice  Class: Freshman
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 606  Name: Bob  Class: Senior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 363  Name: Gail  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 802  Name: Ingrid  Class: Junior
+Student Id: 992  Name: Frank  Class: Sophomore
+
+Student 363 removed
+Student Id: 284  Name: Alice  Class: Freshman
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 606  Name: Bob  Class: Senior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 802  Name: Ingrid  Class: Junior
+Student Id: 992  Name: Frank  Class: Sophomore
+
+Student 606 removed
+Student Id: 284  Name: Alice  Class: Freshman
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 802  Name: Ingrid  Class: Junior
+Student Id: 992  Name: Frank  Class: Sophomore
+
+Student 284 removed
+Student Id: 802  Name: Ingrid  Class: Junior
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 6  Name: Jack  Class: Sophomore
+Student Id: 992  Name: Frank  Class: Sophomore
+
+Student 992 removed
+Student Id: 802  Name: Ingrid  Class: Junior
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 6  Name: Jack  Class: Sophomore
+
+Student 802 removed
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 16  Name: Denise  Class: Junior
+Student Id: 6  Name: Jack  Class: Sophomore
+
+Student 16 removed
+Student Id: 821  Name: Carol  Class: Junior
+Student Id: 6  Name: Jack  Class: Sophomore
+
+Student 821 removed
+Student Id: 6  Name: Jack  Class: Sophomore
+
+Student 6 removed
+There are no nodes in the tree.
+
+Student Id 888 not found
